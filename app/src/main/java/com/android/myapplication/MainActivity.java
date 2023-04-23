@@ -1,10 +1,7 @@
 package com.android.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
-import de.greenrobot.event.EventBus;
 
 public class MainActivity extends AppCompatActivity {
 

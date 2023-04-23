@@ -1,18 +1,14 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.android.myapplication'
-    compileSdk 33
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.android.myapplication"
         minSdk 24
-        targetSdk 33
+        targetSdk 31
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
